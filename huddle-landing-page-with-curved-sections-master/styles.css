@@ -1,0 +1,135 @@
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --Light-Pink: hsl(321, 100%, 78%);
+  --Light-Red: hsl(0, 100%, 63%);
+  --Very-Dark-Cyan: hsl(192, 100%, 9%);
+  --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+nav img {
+  width: 90px;
+}
+
+nav a {
+  border: solid var(--Pink);
+  color: var(--Light-Pink);
+  border-radius: 20px;
+  padding: 0.5rem;
+  border-width: 0.1rem;
+  text-decoration: none;
+}
+
+nav a span {
+  margin: 0 1rem;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6rem;
+  width: 100%;
+}
+
+header h1 {
+  text-align: center;
+  margin: 3rem;
+  font-size: 2.4rem;
+}
+
+header p {
+  text-align: center;
+  text-decoration: none;
+  line-height: 1.6rem;
+  margin: 3rem;
+  font-size: 1.6rem;
+  ;
+  
+}
+
+header a {
+  background-color: var(--Pink);
+  color: white;
+  margin-top: 3rem;
+  padding: 1rem;
+  border-radius: 20px;
+  text-decoration: none;
+  font-style: normal;
+}
+
+header a span {
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+.main-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6rem;
+}
+.main-image-container img {
+  width: 270px;
+}
+
+.main-data {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-data-communities {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.main-data-communities img {
+  width: 20px;
+}
+.main-data-communities h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.main-data-messages {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+.main-data-messages img {
+  width: 20px;
+}
+
+.main-data-messages h2 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.main-data-communities p {
+  color: gray;
+}
+
+.main-data-messages p  {
+  color: gray;
+}
